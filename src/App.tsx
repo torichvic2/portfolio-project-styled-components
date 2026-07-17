@@ -1,18 +1,14 @@
 import './App.css'
-import styled from "styled-components";
+import IconSprite from "./assets/images/icon-sprite.svg?react";
+import {Header} from "./layout/header/Header.tsx";
 
 function App() {
     return (
         <div className="App">
-            <Title>Welcome to IT-INCUBATOR</Title>
+            <IconSprite style={{ display: "none" }}/>
+            <Header/>
         </div>
     )
 }
 
 export default App
-
-const Title = styled.h1`
-    font-size: 1.5em;
-    text-align: center;
-    color: #e91e63;
-`;

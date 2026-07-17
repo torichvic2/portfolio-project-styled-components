@@ -2,6 +2,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
 
     <!-- === UI === -->
+    <symbol id="icon-logo" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="40" height="40" rx="18" fill="#645482"/>
+        <path d="M11.748 14.744L14.532 23.112H14.596L17.316 14.744L15.988 14.408V13.48H20.212V14.408L18.9 14.744L15.396 25H13.348L9.54 14.744L8.26 14.408V13.48H13.06V14.408L11.748 14.744ZM25.782 14.424C25.3767 14.424 24.9873 14.5093 24.614 14.68C24.2513 14.8507 23.958 15.096 23.734 15.416C23.446 15.832 23.2007 16.3547 22.998 16.984C22.806 17.6027 22.71 18.2907 22.71 19.048C22.71 19.8053 22.79 20.5147 22.95 21.176C23.11 21.8373 23.334 22.392 23.622 22.84C23.8567 23.2027 24.1713 23.4693 24.566 23.64C24.9713 23.8107 25.4247 23.896 25.926 23.896C27.718 23.896 28.7687 22.9947 29.078 21.192H30.438C29.9153 23.8373 28.294 25.16 25.574 25.16C24.102 25.16 22.9287 24.7333 22.054 23.88C21.5313 23.368 21.1313 22.7227 20.854 21.944C20.5767 21.1653 20.438 20.3013 20.438 19.352C20.438 18.2747 20.614 17.2987 20.966 16.424C21.318 15.5493 21.814 14.8507 22.454 14.328C23.2647 13.656 24.3367 13.32 25.67 13.32C26.3313 13.32 26.87 13.4053 27.286 13.576C27.702 13.7467 28.1127 14.0507 28.518 14.488L28.838 13.48H30.198V17.256H28.742C28.5927 16.3173 28.2567 15.6133 27.734 15.144C27.222 14.664 26.5713 14.424 25.782 14.424Z" fill="white"/>
+    </symbol>
+
     <symbol id="icon-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <polyline points="6 9 12 15 18 9"></polyline>
     </symbol>
@@ -16,6 +21,7 @@
         <circle cx="12" cy="12" r="4.2"></circle>
         <path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path>>
     </symbol>
+
     <symbol id="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"></path>
     </symbol>
@@ -33,7 +39,7 @@
 
     <symbol id="icon-skill-markup" viewBox="0 0 24 24" stroke-linejoin="round" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
         <polyline points="4 4 5.5 20 12 22 18.5 20 20 4"></polyline>
-        <path d="M8 8h8M8.4 12h7.2M8.7 16l3.3 1 3.3-1">
+        <path d="M8 8h8M8.4 12h7.2M8.7 16l3.3 1 3.3-1"></path>
     </symbol>
 
     <symbol id="icon-skill-tools" viewBox="0 0 24 24" stroke-linejoin="round" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
