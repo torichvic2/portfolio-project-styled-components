@@ -27,114 +27,115 @@
     </symbol>
 
     <!-- === CATEGORY ICONS === -->
-    <symbol id="icon-skill-language" viewBox="0 0 24 24" stroke-linejoin="round" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <symbol id="icon-skill-language" viewBox="0 0 24 24" stroke-linejoin="round" fill="none" stroke="#645482" stroke-width="2" stroke-linecap="round">
         <polyline points="8 6 2 12 8 18"></polyline>
         <polyline points="16 6 22 12 16 18"></polyline>
     </symbol>
 
-    <symbol id="icon-skill-learning" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-        <path d="M12 20V10"></path><path d="M12 10 3 6l9-4 9 4-9 4Z"></path>
-        <path d="M20 10v6c0 1.5-3.5 3-8 3s-8-1.5-8-3v-6"></path>
+    <symbol id="icon-skill-learning" viewBox="0 0 64 64" fill="none" stroke="#DDD7EC" stroke-width="2" stroke-linecap="round">
+        <rect width="64" height="64" rx="16" fill="#DDD7EC"></rect>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#645482" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10"></path><path d="M12 10 3 6l9-4 9 4-9 4Z"></path><path d="M20 10v6c0 1.5-3.5 3-8 3s-8-1.5-8-3v-6"></path>
+            </g>
     </symbol>
 
-    <symbol id="icon-skill-markup" viewBox="0 0 24 24" stroke-linejoin="round" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-        <polyline points="4 4 5.5 20 12 22 18.5 20 20 4"></polyline>
-        <path d="M8 8h8M8.4 12h7.2M8.7 16l3.3 1 3.3-1"></path>
+    <symbol id="icon-skill-markup" viewBox="0 0 64 64" fill="none">
+        <rect width="64" height="64" rx="16" fill="#DDD7EC"></rect>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#645482" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 4 5.5 20 12 22 18.5 20 20 4"></polyline><path d="M8 8h8M8.4 12h7.2M8.7 16l3.3 1 3.3-1"></path>
+            </g>
     </symbol>
 
-    <symbol id="icon-skill-tools" viewBox="0 0 24 24" stroke-linejoin="round" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <symbol id="icon-skill-tools" width="64" height="64" viewBox="0 0 64 64" stroke-linejoin="round" fill="none" stroke="#645482" stroke-width="2" stroke-linecap="round">
         <path d="M14.7 6.3a4 4 0 0 1-5.4 5.4L4 17v3h3l5.3-5.3a4 4 0 0 1 5.4-5.4l-2.6 2.6-2-2 2.6-2.6Z"></path>
     </symbol>
 
-    <!-- === TECHNOLOGY === -->
-    <symbol id="icon-next.js" width="64" height="64" viewBox="0 0 64 64">
+    <!-- === SKILLS === -->
+    <symbol id="icon-nextjs" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#111111"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polygon points="10 8 16 12 10 16" fill="currentColor" stroke="none"></polygon></svg>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polygon points="10 8 16 12 10 16" fill="#fff" stroke="none"></polygon>
         </g>
     </symbol>
 
-    <symbol id="icon-nodejs" viewBox="0 0 24 24" width="64" height="64">
+    <symbol id="icon-nodejs" viewBox="0 0 64 64" width="32" height="32">
         <circle cx="32" cy="32" r="32" fill="#339933"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 20 7 20 17 12 22 4 17 4 7"></polygon></svg>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 20 7 20 17 12 22 4 17 4 7"></polygon>
         </g>
     </symbol>
 
-    <symbol id="icon-react" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-react" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#61DAFB"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0a3540" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="12" rx="10" ry="4"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse><circle cx="12" cy="12" r="1.8" fill="currentColor" stroke="none"></circle></svg>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#0a3540" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="12" rx="10" ry="4"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse><circle cx="12" cy="12" r="1.8" fill="currentColor" stroke="none"></circle>
         </g>
     </symbol>
 
-    <symbol id="icon-redux" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-redux" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#764ABC"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4a8 8 0 1 1-6.9 4"></path><polyline points="4 4 5 8 9 7"></polyline></svg>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4a8 8 0 1 1-6.9 4"></path><polyline points="4 4 5 8 9 7"></polyline>
         </g>
     </symbol>
 
-    <symbol id="icon-styled" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-styled" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#DB7093"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c3-6 6-6 9 0s6 6 9 0"></path></svg>
-        </g>
+        <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c3-6 6-6 9 0s6 6 9 0"></path></g>
     </symbol>
-
-    <symbol id="icon-typescript"  width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-typescript"  width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#3178C6"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="#fff"><text x="12" y="17" font-family="Manrope, sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="currentColor">TS</text></svg>
+            <g transform="translate(8,8) scale(2)" fill="#fff"><text x="12" y="17" font-family="Manrope, sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="#fff">TS</text>
         </g>
     </symbol>
 
-    <symbol id="icon-vite" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-vite" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#646CFF"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="#fff"><polygon points="13 2 4 14 11 14 10 22 20 9 13 9 13 2"></polygon></svg>
+            <g transform="translate(8,8) scale(2)" fill="#fff"><polygon points="13 2 4 14 11 14 10 22 20 9 13 9 13 2"></polygon>
         </g>
     </symbol>
 
-    <symbol id="icon-codex" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-codex" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#10A37F"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"></rect><polyline points="7 9 10 12 7 15"></polyline><line x1="12" y1="15" x2="16" y2="15"></line></svg>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"></rect><polyline points="7 9 10 12 7 15"></polyline><line x1="12" y1="15" x2="16" y2="15"></line>
         </g>
     </symbol>
 
-    <symbol id="icon-git" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-git" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#F05033"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"></circle><circle cx="6" cy="18" r="2"></circle><circle cx="18" cy="10" r="2"></circle><line x1="6" y1="8" x2="6" y2="16"></line><path d="M6 8c0 4 4 4 8 4 2 0 4-1 4-2"></path></svg>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"></circle><circle cx="6" cy="18" r="2"></circle><circle cx="18" cy="10" r="2"></circle><line x1="6" y1="8" x2="6" y2="16"></line><path d="M6 8c0 4 4 4 8 4 2 0 4-1 4-2"></path>
         </g>
     </symbol>
 
-    <symbol id="icon-css" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-css" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#1572B6"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3"></circle><circle cx="16" cy="8" r="3"></circle><circle cx="12" cy="16" r="3"></circle></svg>
+        <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="3"></circle>
+        <circle cx="16" cy="8" r="3"></circle>
+        <circle cx="12" cy="16" r="3"></circle>
         </g>
     </symbol>
 
-    <symbol id="icon-html" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-html" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#E34F26"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4 3 12 8 20"></path><path d="M16 4 21 12 16 20"></path><line x1="13" y1="3" x2="11" y2="21"></line></svg>
-        </g>
+        <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 4 3 12 8 20"></path>
+        <path d="M16 4 21 12 16 20"></path>
+        <line x1="13" y1="3" x2="11" y2="21"></line></g>
     </symbol>
 
-    <symbol id="icon-javascript" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-javascript" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#F0DB4F"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="#2b2200"><text x="12" y="17" font-family="Manrope, sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="currentColor">JS</text></svg>
+            <g transform="translate(8,8) scale(2)" fill="#2b2200"><text x="12" y="17" font-family="Manrope, sans-serif" font-size="13" font-weight="800" text-anchor="middle" fill="currentColor">JS</text>
         </g>
     </symbol>
 
-    <symbol id="icon-jest" width="64" height="64" viewBox="0 0 64 64">
+    <symbol id="icon-jest" width="32" height="32" viewBox="0 0 64 64">
         <circle cx="32" cy="32" r="32" fill="#C21325"></circle>
-        <g transform="translate(8,8)">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="8 12 11 15 16 9"></polyline></svg>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><polyline points="8 12 11 15 16 9"></polyline>
+        </g>
+    </symbol>
+
+    <symbol id="icon-rest" width="32" height="32" viewBox="0 0 64 64">
+        <circle cx="32" cy="32" r="32" fill="#5A67D8"></circle>
+            <g transform="translate(8,8) scale(2)" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 7h11a3 3 0 0 1 3 3v0a3 3 0 0 1-3 3H8"></path>
+                <polyline points="7 6 4 7 7 8"></polyline>
+                <path d="M20 17H9a3 3 0 0 1-3-3v0a3 3 0 0 1 3-3h8"></path>
+                <polyline points="17 18 20 17 17 16"></polyline>
         </g>
     </symbol>
 
