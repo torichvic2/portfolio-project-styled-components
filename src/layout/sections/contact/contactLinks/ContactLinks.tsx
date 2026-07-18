@@ -1,10 +1,10 @@
-import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
+import {FlexWrapper} from "../../../../components/FlexWrapper.tsx";
 import styled from "styled-components";
-import {LinkButton} from "../../../components/linkButton/LinkButton.tsx";
+import {LinkButton} from "../../../../components/linkButton/LinkButton.tsx";
 import {messangers, socials} from "./contactData.ts";
-import { Icon } from "../../../components/icon/Icon.tsx";
+import { Icon } from "../../../../components/icon/Icon.tsx";
 
-export const ContactMessangers = () => {
+export const ContactLinks = () => {
     return (
         <StyledList>
             <StyledMessangerBox>

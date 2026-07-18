@@ -2,7 +2,7 @@ import {SectionHeading} from "../../../components/sectionHeading/SectionHeading.
 import styled from "styled-components";
 import {LinkButton} from "../../../components/linkButton/LinkButton.tsx";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
-import {ContactMessangers} from "./ContactMessangers.tsx";
+import {ContactLinks} from "./contactLinks/ContactLinks.tsx";
 import {Icon} from "../../../components/icon/Icon.tsx";
 
 
@@ -27,7 +27,7 @@ export const Contact = () => {
                 <Icon iconId="icon-mail"/>
                 Send message
             </LinkButton>
-            <ContactMessangers/>
+            <ContactLinks/>
         </StyledContact>
     );
 };
