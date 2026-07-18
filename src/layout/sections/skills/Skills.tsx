@@ -7,10 +7,7 @@ import {SectionHeading} from "../../../components/sectionHeading/SectionHeading.
 export const Skills = () => {
     return (
         <StyledSkills id="skills">
-            <SectionHeading
-                eyebrow="WHAT I DO"
-                title="Solid fundamentals, built through real projects"
-            />
+            <SectionHeading eyebrow="WHAT I DO" title="Solid fundamentals, built through real projects"/>
 
             <FlexWrapper wrap="wrap" gap="24px">
                 {skillData.map((group) => (

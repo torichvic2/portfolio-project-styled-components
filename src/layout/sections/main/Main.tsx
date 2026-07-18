@@ -1,8 +1,8 @@
 import photo from '../../../assets/images/hero-photo.webp'
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
-import {MainContent} from "./MainContent.tsx";
-import {MainActions} from "./MainActions.tsx";
+import {MainContent} from "./main/MainContent.tsx";
+import {MainActions} from "./main/MainActions.tsx";
 
 
 export const Main = () => {

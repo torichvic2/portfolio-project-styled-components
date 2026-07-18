@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import {LinkButton} from "../../../components/linkButton/LinkButton.tsx";
-import {Icon} from "../../../components/icon/Icon.tsx";
+import {LinkButton} from "../../../../components/linkButton/LinkButton.tsx";
+import {Icon} from "../../../../components/icon/Icon.tsx";
 
 export const MainActions = () => {
     return (

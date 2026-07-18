@@ -5,8 +5,6 @@ import type {ProjectCategory} from "./project/projectData.ts"
 import {ProjectsGroups} from "./project/projectData.ts"
 import {ProjectFilters} from "./project/ProjectFilters.tsx";
 import {ProjectCard} from "./project/ProjectCard.tsx";
-import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
-
 
 export const Projects = () => {
     const [activeFilter, setActiveFilter] = useState<'all' | ProjectCategory>(
@@ -22,10 +20,7 @@ export const Projects = () => {
 
     return (
         <StyledProjects>
-            <SectionHeading
-                eyebrow="SELECTED WORK"
-                title="Course & pet projects"
-            />
+            <SectionHeading eyebrow="SELECTED WORK" title="Course & pet projects"/>
 
             <ProjectFilters
                 activeFilter={activeFilter}

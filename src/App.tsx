@@ -4,6 +4,7 @@ import {Header} from "./layout/header/Header.tsx";
 import {Main} from "./layout/sections/main/Main.tsx";
 import {Skills} from "./layout/sections/skills/Skills.tsx";
 import {Projects} from "./layout/sections/projects/Projects.tsx";
+import {About} from "./layout/sections/about/About.tsx";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Main/>
             <Skills/>
             <Projects/>
+            <About/>
         </div>
     )
 }
