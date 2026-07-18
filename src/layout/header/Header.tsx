@@ -1,16 +1,16 @@
-
-
 import styled from "styled-components";
 import {Logo} from "../../components/Logo.tsx";
 import {Menu} from "../../components/menu/Menu.tsx";
 import {ThemeToggleButton} from "../../components/themeToggleButton/ThemeToggleButton.tsx";
 import {LanguageSwitcher} from "../../components/languageSwitcher/LanguageSwitcher.tsx";
 
+const items = ["Home", "Skills", "Projects", "About", "Contact"];
+
 export const Header = () => {
     return (
         <StyledHeader>
             <Logo/>
-            <Menu/>
+            <Menu menuItems={items}/>
 
             <StyledHeaderControls>
                 <ThemeToggleButton/>

@@ -11,7 +11,7 @@ export type SkillGroup = {
     skills: Skill[];
 }
 
-export const skillGroups: SkillGroup[] = [
+export const skillData: SkillGroup[] = [
     {
         id: 'markup-styling',
         iconId: 'icon-skill-markup',

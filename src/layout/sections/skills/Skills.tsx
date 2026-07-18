@@ -1,22 +1,22 @@
 import styled from "styled-components";
-import {SectionTitle} from "../../../components/SectionTitle.tsx";
-import {Eyebrow} from "../../../components/Eyebrow.tsx";
 import {SkillCard} from "./skill/SkillCard.tsx";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
-import {skillGroups} from "./skill/skillGroups.ts"
+import {skillData} from "./skill/skillData.ts"
+import {SectionHeading} from "../../../components/sectionHeading/SectionHeading.tsx";
 
 export const Skills = () => {
     return (
         <StyledSkills id="skills">
-                <Eyebrow>WHAT I DO</Eyebrow>
-                <SectionTitle>Solid fundamentals, built through real projects.</SectionTitle>
+            <SectionHeading
+                eyebrow="WHAT I DO"
+                title="Solid fundamentals, built through real projects"
+            />
 
             <FlexWrapper wrap="wrap" gap="24px">
-                {skillGroups.map((group) => (
+                {skillData.map((group) => (
                     <SkillCard key={group.id} {...group} />
                 ))}
             </FlexWrapper>
-
         </StyledSkills>
     );
 };

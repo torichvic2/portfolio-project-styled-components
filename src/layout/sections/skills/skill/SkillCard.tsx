@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {Icon} from "../../../../components/icon/Icon.tsx";
-import {Skill} from "./skillGroups.ts";
+import {Skill} from "./skillData.ts";
 
 type SkillCardPropsType = {
     id: string;
