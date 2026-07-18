@@ -2,9 +2,9 @@ import {SectionHeading} from "../../../components/sectionHeading/SectionHeading.
 import styled from "styled-components";
 import aboutPhoto from "../../../assets/images/about-photo.webp"
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
-import {AboutTabs} from "./AboutTabs.tsx";
-import {AboutTab} from  "./aboutData.ts"
-import {education, experience, tabContent} from "./aboutData.ts";
+import {AboutTabs} from "./aboutTabs/AboutTabs.tsx";
+import {AboutTab} from "./aboutTabs/aboutData.ts"
+import {education, experience, tabContent} from "./aboutTabs/aboutData.ts";
 import {useState} from "react";
 
 export const About = () => {
@@ -64,7 +64,7 @@ export const About = () => {
     );
 };
 
-const StyledAbout = styled.div`
+const StyledAbout = styled.section`
     min-height: 100vh;
 `
 

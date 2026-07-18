@@ -4,11 +4,12 @@ import styled from "styled-components";
 type ButtonVariant = "primary" | "secondary" | "overlay";
 
 type LinkButtonPropsType = {
+    type?: string,
     href: string,
-    children: ReactNode,
-    variant?: ButtonVariant;
-    download?: boolean;
-    target?: "_blank" | "_self";
+    children?: ReactNode,
+    variant?: ButtonVariant,
+    download?: boolean,
+    target?: "_blank" | "_self",
 }
 
 export const LinkButton = (props: LinkButtonPropsType) => {
@@ -28,6 +29,7 @@ const StyledLinkButton = styled.a<{ $variant: ButtonVariant }>`
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-top: 24px;
-    padding: 24px 14px;
+    
+    margin-top: 16px;
+    margin-bottom: 48px;
 `
