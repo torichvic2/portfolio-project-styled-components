@@ -10,8 +10,7 @@ import {Footer} from "./layout/footer/Footer.tsx";
 import {theme} from "./styles/Theme.ts";
 import {useThemeMode} from "./styles/hooks/useThemeMode.ts";
 import {GlobalStyle} from "./styles/GlobalStyle.ts";
-import { ThemeProvider } from "styled-components";
-
+import {ThemeProvider } from "styled-components";
 function App() {
     const { mode, toggleMode } = useThemeMode();
 
