@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         margin: 0;
         font-family: ${({ theme }) => theme.fonts.body};
+        font-weight: 400;
         background-color: ${({ theme }) => theme.colors.bg};
         color: ${({ theme }) => theme.colors.textPrimary};
         transition: background-color 0.3s ease, color 0.3s ease;
@@ -28,6 +29,7 @@ export const GlobalStyle = createGlobalStyle`
 
     a {
         text-decoration: none;
+        color: inherit;
     }
 
     ul {

@@ -33,7 +33,9 @@ export const Header = (props: HeaderPropsType) => {
 
 const StyledHeader = styled.header`
     padding: 20px 80px;
-    position: sticky;
+    position: fixed;
+    left: 0;
+    right:0;
     top: 0;
     z-index: 99999;
 

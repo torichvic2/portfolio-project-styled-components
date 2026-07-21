@@ -15,5 +15,6 @@ export const MainActions = () => {
 };
 
 const StyledActions = styled.div`
-
+    display: flex;
+    gap: 12px;
 `

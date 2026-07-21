@@ -29,7 +29,16 @@ const StyledLinkButton = styled.a<{ $variant: ButtonVariant }>`
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    
+
+    padding: 14px 24px;
     margin-top: 16px;
     margin-bottom: 48px;
+    border-radius: 999px;
+    border: 1px solid ${({ theme }) => theme.colors.border};
+    
+    &:hover {
+        border-radius: 999px;
+        background: linear-gradient(90deg, #4E4B7F 0%, #735681 100%);
+        color: white;
+    }
 `
