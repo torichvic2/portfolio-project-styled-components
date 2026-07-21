@@ -31,8 +31,7 @@ const StyledLinkButton = styled.a<{ $variant: ButtonVariant }>`
     gap: 6px;
 
     padding: 14px 24px;
-    margin-top: 16px;
-    margin-bottom: 48px;
+
     border-radius: 999px;
     border: 1px solid ${({ theme }) => theme.colors.border};
     

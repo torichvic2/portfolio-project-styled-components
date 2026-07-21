@@ -5,6 +5,7 @@ import type {ProjectCategory} from "./project/projectData.ts"
 import {ProjectsGroups} from "./project/projectData.ts"
 import {ProjectFilters} from "./project/ProjectFilters.tsx";
 import {ProjectCard} from "./project/ProjectCard.tsx";
+import {Container} from "../../../components/container.ts";
 
 export const Projects = () => {
     const [activeFilter, setActiveFilter] = useState<'all' | ProjectCategory>(
@@ -20,24 +21,26 @@ export const Projects = () => {
 
     return (
         <StyledProjects>
-            <SectionHeading eyebrow="SELECTED WORK" title="Course & pet projects"/>
+            <Container>
+                <SectionHeading eyebrow="SELECTED WORK" title="Course & pet projects"/>
 
-            <ProjectFilters
-                activeFilter={activeFilter}
-                onFilterChange={setActiveFilter}
-            />
+                <ProjectFilters
+                    activeFilter={activeFilter}
+                    onFilterChange={setActiveFilter}
+                />
 
-            <StyledProjectsGrid>
-                {filteredProjects.map((project) => (
-                    <ProjectCard key={project.id} {...project}/>
-                ))}
-            </StyledProjectsGrid>
+                <StyledProjectsGrid>
+                    {filteredProjects.map((project) => (
+                        <ProjectCard key={project.id} {...project}/>
+                    ))}
+                </StyledProjectsGrid>
+            </Container>
         </StyledProjects>
     );
 };
 
 const StyledProjects = styled.section`
-    min-height: 100vh;
+
 `
 
 const StyledProjectsGrid = styled.div`

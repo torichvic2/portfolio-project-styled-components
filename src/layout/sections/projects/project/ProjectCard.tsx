@@ -7,14 +7,15 @@ type ProjectCardPropsType = ProjectData;
 export const ProjectCard = (props: ProjectCardPropsType) => {
     return (
         <StyledProjectCard>
-            <Image src={props.src} alt={props.alt}/>
+            <ImageWrapper>
+                <Image src={props.src} alt={props.alt}/>
+                <StyledOverlay>
+                    <LinkButton variant="overlay" target="_blank" href={props.demoUrl}>demo</LinkButton>
+                    <LinkButton variant="overlay" target="_blank" href={props.codeUrl}>code</LinkButton>
+                </StyledOverlay>
+            </ImageWrapper>
             <StyledTitle>{props.title}</StyledTitle>
             <StyledDescription>{props.description}</StyledDescription>
-
-            <StyledOverlay>
-                <LinkButton variant="overlay" target="_blank" href={props.demoUrl}>demo</LinkButton>
-                <LinkButton variant="overlay" target="_blank" href={props.codeUrl}>code</LinkButton>
-            </StyledOverlay>
 
             <StyledTagList>
                 {props.techTags.map((tag) => {
@@ -35,20 +36,53 @@ const StyledProjectCard = styled.div`
     flex: 0 1 calc(50% - 16px);
 `
 const StyledTitle = styled.h3`
-    margin: 16px 24px 8px;
+    font-family: ${({theme}) => theme.fonts.heading};
+    font-size: ${({theme}) => theme.fontSizes.h3};
+    color: ${({theme}) => theme.colors.textPrimary};
 `
 
 const StyledDescription = styled.p`
-    margin: 0 24px 16px;
+    font-family: ${({theme}) => theme.fonts.body};
+    font-size: ${({theme}) => theme.fontSizes.h4};
+    color: ${({theme}) => theme.colors.textSecondary};
+    
+    margin: 12px 0;
 `
 
 const Image = styled.img`
     width: 100%;
-    height: 500px;
+    max-height: 260px;
     object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid ${({theme}) => theme.colors.border};
+    
+    margin-bottom: 18px;
 `
+
+const ImageWrapper = styled.div`
+    position: relative;
+    overflow: hidden;
+`
+
 const StyledOverlay = styled.div`
-    margin: 0 24px 16px;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    transition: 0.15s ease-in-out;
+    color: white;
+    position: absolute;
+    
+    &:hover {
+        border-radius: 20px;
+        opacity: 1;
+    }
 `
 
 const StyledTagList = styled.div`
@@ -57,5 +91,13 @@ const StyledTagList = styled.div`
 `
 
 const StyledTag = styled.span`
+    background: ${({theme}) => theme.colors.bgAlt};
+    border-radius: 999px;
+    border: 1px solid ${({theme}) => theme.colors.border};
+    padding: 2px 8px;
+    width: fit-content;
+    height: 100%;
     
+    font-size: ${({theme}) => theme.fontSizes.small};
+    color: ${({theme}) => theme.colors.textSecondary};
 `

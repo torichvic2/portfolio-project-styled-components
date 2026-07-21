@@ -35,6 +35,7 @@ const StyledMain = styled.section`
 const StyledTextBlock = styled.div`
     display: flex;
     flex-direction: column;
+    gap: 24px;
 `
 
 const StyledPhoto = styled.img`
