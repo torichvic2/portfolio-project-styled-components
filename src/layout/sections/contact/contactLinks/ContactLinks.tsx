@@ -20,16 +20,15 @@ export const ContactLinks = () => {
                     </LinkButton>
                 ))}
             </StyledMessangerBox>
-            <FlexWrapper>
+            <FlexWrapper gap="16px">
                 {socials.map((social) => (
-                    <LinkButton
+                    <StyledSocialButton
                     href={social.href}
                     key={social.id}
-                    variant="secondary"
                     target="_blank"
                     >
                         <Icon iconId={social.iconId} width="32" height="32"/>
-                    </LinkButton>
+                    </StyledSocialButton>
                 ))}
             </FlexWrapper>
         </StyledList>
@@ -46,4 +45,19 @@ const StyledList = styled.div`
 const StyledMessangerBox = styled.div`
     display: inline-flex;
     gap: 12px;
+    margin-bottom: 48px;
+`
+
+const StyledSocialButton = styled.a`
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    border-radius: 100px;
+    border: 1px solid ${({ theme }) => theme.colors.border};
+
+    &:hover {
+        border-radius: 999px;
+        background: linear-gradient(90deg, #4E4B7F 0%, #735681 100%);
+        color: white;
+    }
 `
