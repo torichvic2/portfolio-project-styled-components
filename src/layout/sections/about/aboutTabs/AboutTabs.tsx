@@ -27,9 +27,38 @@ export const AboutTabs = (props: AboutTabsPropsType) => {
 };
 
 const StyledTabs = styled.div`
+    display: flex;
+    gap: 32px;
+
+    border-bottom: 1px solid ${({ theme }) => theme.colors.border};
+    transition: border-bottom-width 0.7s;
     
 `
 
 const StyledTabButton = styled.button<{ $isActive: boolean }>`
-    
-`
+    position: relative;
+    cursor: pointer;
+    color: ${({ theme, $isActive }) =>
+    $isActive ? theme.colors.text : theme.colors.textMuted};
+    text-align: left;
+    padding: 12px 0;
+    border: none;
+    background: none;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1px; /* перекрывает border-bottom контейнера */
+        width: 100%;
+        height: 2px;
+        background: ${({ theme }) => theme.colors.borderHover};
+        transform: scaleX(${({ $isActive }) => ($isActive ? 1 : 0)});
+        transform-origin: left;
+        transition: transform 0.3s ease;
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+    }
+`;

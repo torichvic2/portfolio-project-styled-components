@@ -45,6 +45,7 @@ const StyledDescription = styled.p`
     font-family: ${({theme}) => theme.fonts.body};
     font-size: ${({theme}) => theme.fontSizes.h4};
     color: ${({theme}) => theme.colors.textSecondary};
+    line-height: 160%; /* 22.4px */
     
     margin: 12px 0;
 `
