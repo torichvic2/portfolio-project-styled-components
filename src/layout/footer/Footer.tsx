@@ -1,17 +1,22 @@
 import styled from "styled-components";
-import {LinkButton} from "../../components/linkButton/LinkButton.tsx";
+import {Container} from "../../components/container.ts";
+import {FlexWrapper} from "../../components/FlexWrapper.tsx";
 
 export const Footer = () => {
     return (
         <StyledFooter>
-            <StyledContent>
-                <span>Chen Viktoria</span>
-                <span>All rights reserved © 2026</span>
-            </StyledContent>
+            <Container>
+                <FlexWrapper>
+                    <StyledContent>
+                        <span>Chen Viktoria</span>
+                        <span>All rights reserved © 2026</span>
+                    </StyledContent>
 
-            <LinkButton href="#">
-                Back to top ↑
-            </LinkButton>
+                    <StyledButton href="#">
+                        <StyledText>Back to top ↑</StyledText>
+                    </StyledButton>
+                </FlexWrapper>
+            </Container>
         </StyledFooter>
     );
 };
@@ -19,6 +24,7 @@ export const Footer = () => {
 const StyledFooter = styled.footer`
     display: flex;
     justify-content: center;
+    padding: 24px;
 `
 
 const StyledContent = styled.span`
@@ -27,5 +33,31 @@ const StyledContent = styled.span`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    color: ${({ theme }) => theme.colors.textSecondary};
+    font-size: ${({ theme }) => theme.fontSizes.small};
+    text-align: center;
+    line-height: normal;
+    padding: 24px 0;
+    
+    position: relative;
+    border-top: 1px solid ${({ theme }) => theme.colors.border};
+
+`
+
+const StyledButton = styled.a`
+    position: absolute;
+    right: 350px;
+    padding: 24px 0;
+`
+
+const StyledText = styled.p`
+    line-height: normal;
+    font-weight: 500;
+    font-size: ${({ theme }) => theme.fontSizes.small};
+    
+    &:hover {
+        color: ${({ theme }) => theme.colors.textSecondary};
+    }
 `
 
